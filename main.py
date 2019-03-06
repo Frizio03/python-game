@@ -1,19 +1,22 @@
 class World:
-  def __init__(self, level_numeber, larghezza, altezza):
+  def __init__(self, level_numeber, w, h):
     self.level_numeber = level_numeber
-    self.larghezza = larghezza
-    self.altezza = altezza
+    self.w = w
+    self.h = h
 
-  def create(self):
+  def draw(self, *n_entities):
     print()
     print("LEVEL N.", self.level_numeber)
     print()
-    for y in range(self.altezza):
-      for x in range(self.larghezza):
-        if e.x == x and e.y == y:
-          print("[{}]".format(e.graphic), end="")
+    for y in range(self.h):
+      for x in range(self.w):
+        for ent in n_entities:
+          if (ent.x - 1) == x and (ent.y - 1) == y:
+            print("[{}]".format(ent.graphic), end="")
+            break
         else:
           print("[ ]", end="")
+      print()
 
 class Entity:
   def __init__(self, x, y, graphic):
@@ -23,8 +26,9 @@ class Entity:
 
 
 e = Entity(5, 5, "X")
+e2 = Entity(7, 6, "Y")
 world = World(1, 10, 10)
 
-world.create()
+world.draw(e, e2)
 
 print()
