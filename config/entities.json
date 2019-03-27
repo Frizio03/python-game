@@ -1,41 +1,4 @@
 {
-    "O": {
-        "name": "coccinella",
-        "color": "red",
-        "description": "che bella!",
-        "interactions":  {
-            "no-item": {
-                "message": "la schiacci",
-                "transform": " "
-            }
-        }
-    },
-    "H": {
-        "name": "idrogeno",
-        "description": "e' dell'idrogeno, non chiedermi come fai a percepirlo...",
-        "color": "magenta",
-        "interactions": {
-            "no-item": {
-                "message": "ma scusa... cosa ti aspetti di fare esattamente con l'idrogeno..."
-            },
-            "L": {
-                "message": "opppero'! hai condito le lasagne con l'idrogeno sprigionando una reazione unicornosa",
-                "transform": "U"
-            }
-        }
-    },
-    "L": {
-        "name": "lasagne",
-        "description": "sembrano appetitose",
-        "color": "green",
-        "interactions": {
-            "no-item": {
-                "message": "fa sempre comodo avere delle lasagne in tasca",
-                "transform": " ",
-                "pickup": true
-            }
-        }
-    },
     "B": {
         "name": "bomba",
         "description": "e' una bomba pronta a detonare, devo sbrigarmi a disinnescarla!",
@@ -56,28 +19,7 @@
             }
         }
     },
-    "1": {
-        "name": "porta",
-        "description": "e' una porta",
-        "color": "blue",
-        "interactions": {
-            "no-item": {
-                "message": "si apre",
-                "move_to_room": 1
-            }
-        }
-    },
-    "2": {
-        "name": "porta",
-        "description": "e' una porta",
-        "color": "blue",
-        "interactions": {
-            "no-item": {
-                "message": "quale porta scusa???",
-                "transform": "L"
-            }
-        }
-    },
+
     "0": {
         "name": "porta",
         "description": "e' una porta",
@@ -89,10 +31,118 @@
             }
         }
     },
+
+    "1": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "red",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 1
+            }
+        }
+    },
+
+    "2": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 2
+            }
+        }
+    },
+
+    "3": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 3
+            }
+        }
+    },
+
+    "4": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 4
+            }
+        }
+    },
+
+    "5": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 5
+            }
+        }
+    },
+
+    "6": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 6
+            }
+        }
+    },
+
+    "7": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 7
+            }
+        }
+    },
+
+    "8": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 8
+            }
+        }
+    },
+
+    "9": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 9
+            }
+        }
+    },
     "Q": {
         "name": "quadro",
         "description": "e' proprio un bel quadro",
-        "color": "blue",
+        "color": "green",
         "interactions": {
             "no-item": {
                 "message": "spostando il quadro ti accorgi che dietro nasconte una cassaforte",
@@ -156,20 +206,15 @@
         }
     },
 
-    "U": {
-        "name": "unicorno",
-        "description": "che splendido esemplare fatato!",
-        "color": "blue",
+    "T": {
+        "name": "tavolo",
+        "description": "un tavolo di legno pregiato",
+        "color": "brown",
         "interactions": {
             "no-item": {
                 "message": "che splendida sensazione",
                 "win": "voli via contento e vivrai una vita fatta di soddisfazioni cucciolose"
             },
-
-            "L": {
-                "message": "quello che una volta  era un leggiadro  unicorno ora e' un unicorno obeso! non volera' mai piu'",
-                "game_over": "peccato!"
-            }
         }
     },
 

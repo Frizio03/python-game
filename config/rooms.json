@@ -1,19 +1,62 @@
 {
     "0": {
-        "name": "Sala",
-        "description": "Questo luogo e' abbastanza accogliente nonostante il senso di claustrofobia che ti trasmette",
+        "name": "Corridoio",
+        "description": "Ti sei risvegliato rinchiuso in questa casa: CERCA DI USCIRE",
         "color": "white"
     },
 
     "1": {
         "name": "Cucina",
-        "description": "E' tutto molto disordinato. Sembra che nessuno abbia riordinato da molto tempo",
-        "color": "red"
+        "description": "E' tutto molto disordinato. Sembra che i proprietari della casa siano buongustai",
+        "color": "white"
     },
     
     "2": {
-        "name": "Sogno",
-        "description": "sei evidentemente in un sogno",
-        "color": "black"
+        "name": "Sala da Pranzo",
+        "description": "il luogo perfetto per chiacchierare e prendere un caffè",
+        "color": "white"
+    },
+
+    "3": {
+        "name": "Cantina",
+        "description": "wow quanto vino! Ma ci sarà anche qualcos'altro",
+        "color": "white"
+    },
+
+    "4": {
+        "name": "Atrio",
+        "description": "puoi entrare nelle altre stanze",
+        "color": "white"
+    },
+
+    "5": {
+        "name": "Cameretta",
+        "description": "Puoi giocare come un bimbo...",
+        "color": "white"
+    },
+
+    "6": {
+        "name": "Bagno",
+        "description": "Una stanza utile e in questa casa anche pulita...",
+        "color": "white"
+    },
+
+    "7": {
+        "name": "Camera",
+        "description": "Un letto matrimoniale ed un vecchio armadio...",
+        "color": "white"
+    },
+
+    "8": {
+        "name": "Garage",
+        "description": "Le auto non ci sono: il proprietario è andato via. Approffittane per curiosare in giro...",
+        "color": "white"
+    },
+
+    "9": {
+        "name": "Giardino",
+        "description": "Ce l'hai quasi fatta ad uscire: non mollare!!",
+        "color": "white"
     }
+
 }
