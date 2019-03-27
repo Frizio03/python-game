@@ -1,19 +1,61 @@
 {
     "0": {
-        "name": "Sala",
-        "description": "Questo luogo e' abbastanza accogliente nonostante il senso di claustrofobia che ti trasmette",
+        "name": "Corridoio",
+        "description": "Cerca dei personaggi che ti aiutino ad uscire",
         "color": "white"
     },
 
     "1": {
         "name": "Cucina",
-        "description": "E' tutto molto disordinato. Sembra che nessuno abbia riordinato da molto tempo",
+        "description": "C'è molto disordine, il proprietario della casa cucina molto bene",
         "color": "red"
     },
     
     "2": {
-        "name": "Sogno",
-        "description": "sei evidentemente in un sogno",
-        "color": "black"
+        "name": "Sala da pranzo",
+        "description": "Un luogo perfetto per rilassarsi e prendere il caffè",
+        "color": "white"
+    },
+
+    "3": {
+        "name": "Cantina",
+        "description": "Wow quanto vino",
+        "color": "white"
+    },
+
+    "4": {
+        "name": "Atrio",
+        "description": "Da qui puoi accedere ad altre stanze",
+        "color": "white"
+    },
+
+    "5": {
+        "name": "Cameretta",
+        "description": "Il luogo perfetto dove i bimbi possono giocare",
+        "color": "white"
+    },
+
+    "6": {
+        "name": "Bagno",
+        "description": "Un luogo utile ed anche pulito...",
+        "color": "blue"
+    },
+
+    "7": {
+        "name": "Camera",
+        "description": "Ci sono un sacco di cuscini morbidi morbidi e pucciosi...",
+        "color": "white"
+    },
+
+    "8": {
+        "name": "Garage",
+        "description": "Quante cianfrusaglie, curiosa in giro!",
+        "color": "white"
+    },
+
+    "9": {
+        "name": "Cortile",
+        "description": "stai quasi per uscire: ancora un piccolo sforzo",
+        "color": "green"
     }
 }

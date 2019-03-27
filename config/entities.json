@@ -1,15 +1,4 @@
 {
-    "O": {
-        "name": "coccinella",
-        "color": "red",
-        "description": "che bella!",
-        "interactions":  {
-            "no-item": {
-                "message": "la schiacci",
-                "transform": " "
-            }
-        }
-    },
     "H": {
         "name": "idrogeno",
         "description": "e' dell'idrogeno, non chiedermi come fai a percepirlo...",
@@ -73,8 +62,85 @@
         "color": "blue",
         "interactions": {
             "no-item": {
-                "message": "quale porta scusa???",
-                "transform": "L"
+                "message": "si apre",
+                "move_to_room": 2
+            }
+        }
+    },
+    "3": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 3
+            }
+        }
+    },
+    "4": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 4
+            }
+        }
+    },
+    "5": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 5
+            }
+        }
+    },
+    "6": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 6
+            }
+        }
+    },
+    "7": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 7
+            }
+        }
+    },
+    "8": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 8
+            }
+        }
+    },
+    "9": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 9
             }
         }
     },
@@ -92,7 +158,7 @@
     "Q": {
         "name": "quadro",
         "description": "e' proprio un bel quadro",
-        "color": "blue",
+        "color": "green",
         "interactions": {
             "no-item": {
                 "message": "spostando il quadro ti accorgi che dietro nasconte una cassaforte",
