@@ -1,19 +1,31 @@
 {
     "0": {
-        "name": "Sala",
-        "description": "Questo luogo e' abbastanza accogliente nonostante il senso di claustrofobia che ti trasmette",
+        "name": "Corridoio",
+        "description": "Cerca dei personaggi che ti aiutino ad uscire",
         "color": "white"
     },
 
     "1": {
         "name": "Cucina",
-        "description": "E' tutto molto disordinato. Sembra che nessuno abbia riordinato da molto tempo",
+        "description": "C'è molto disordine, il proprietario della casa cucina molto bene",
         "color": "red"
     },
     
     "2": {
-        "name": "Sogno",
-        "description": "sei evidentemente in un sogno",
-        "color": "black"
+        "name": "Sala da pranzo",
+        "description": "Un luogo perfetto per rilassarsi e prendere il caffè",
+        "color": "white"
+    },
+
+    "3": {
+        "name": "Cantina",
+        "description": "Wow quanto vino",
+        "color": "white"
+    },
+
+    "4": {
+        "name": "Giardino",
+        "description": "Con un prato verde comprato in offerta la domenica (pubblicità occulta 2)",
+        "color": "green"
     }
 }

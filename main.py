@@ -1,5 +1,5 @@
 import json
-from os import system
+from os import system #serve per eseguire tramite python i comandi del term
 from random import choice
 import sys
 
@@ -11,8 +11,10 @@ WRONG_INTERACTION_RESPONSES = [
     "non credo proprio",
     "non e'il caso"
 ]
-IS_WINDOWS = sys.platform.lower() == "win32"
 
+#verifica il tipo di sistema opertivo
+IS_WINDOWS = sys.platform.lower() == "win32" 
+#forgrund: colore del testo (un colore è un pezzo di testo che viene messo davanti ed alla fine di una stringa)
 class Fg: 
     rs="\033[00m"
     black='\033[30m'
@@ -30,7 +32,7 @@ class Fg:
     lightblue='\033[94m'
     pink='\033[95m'
     lightcyan='\033[96m'
-
+#background: colore sello sfondo
 class Bg: 
     rs="\033[00m"
     black='\033[40m'
@@ -41,8 +43,8 @@ class Bg:
     magenta='\033[45m'
     cyan='\033[46m'
     white='\033[47m'
-
-
+#creazione di calsse per usare enum (strutura dati con valori annessi) in python
+#classe statica che ha 4 proprietà con valori numerici
 class Directions:
     N = 0
     S = 1
@@ -177,9 +179,10 @@ class Wall(Entity):
 
 class Game:
     config = {}
+    #caricamento dei file di configurazione
     for key in ("entities", "rooms", "game"):
         file = open("./config/{}.json".format(key))
-        config[key] = json.load(file)
+        config[key] = json.load(file) #dato un file lo trasforma in un dictionary
         file.close()
 
     def __init__(self):
