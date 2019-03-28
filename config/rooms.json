@@ -24,38 +24,8 @@
     },
 
     "4": {
-        "name": "Atrio",
-        "description": "Da qui puoi accedere ad altre stanze",
-        "color": "white"
-    },
-
-    "5": {
-        "name": "Cameretta",
-        "description": "Il luogo perfetto dove i bimbi possono giocare",
-        "color": "white"
-    },
-
-    "6": {
-        "name": "Bagno",
-        "description": "Un luogo utile ed anche pulito...",
-        "color": "blue"
-    },
-
-    "7": {
-        "name": "Camera",
-        "description": "Ci sono un sacco di cuscini morbidi morbidi e pucciosi...",
-        "color": "white"
-    },
-
-    "8": {
-        "name": "Garage",
-        "description": "Quante cianfrusaglie, curiosa in giro!",
-        "color": "white"
-    },
-
-    "9": {
-        "name": "Cortile",
-        "description": "stai quasi per uscire: ancora un piccolo sforzo",
+        "name": "Giardino",
+        "description": "Con un prato verde comprato in offerta la domenica (pubblicità occulta 2)",
         "color": "green"
     }
 }
