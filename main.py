@@ -12,8 +12,9 @@ WRONG_INTERACTION_RESPONSES = [
     "non e'il caso"
 ]
 
-#verifica il tipo di sistema opertivo
+#verifica il tipo di sistema opertivo tramite operazione booleana
 IS_WINDOWS = sys.platform.lower() == "win32" 
+
 #forgrund: colore del testo (un colore è un pezzo di testo che viene messo davanti ed alla fine di una stringa)
 class Fg: 
     rs="\033[00m"
@@ -132,7 +133,8 @@ class Mobile(Entity):
                 self.y = entity.y
                 break
         else:#eseguito solo se il ciclo termima spontaneamente senza interruzioni
-            raise Exception("this room has no {} door".format(from_room_number))#produce un errore che stampa un messaggio istanziano un'entità "excepion"
+            #comando che accetta una eccezione (=errore) e produce un errore che stampa un messaggio istanziando un'entità "excepion"
+            raise Exception("this room has no {} door".format(from_room_number))
 
     def move(self, direction):#si controlla la direzione, se si è dentro al campo e se la casella è libera, poi si effettua il movimento
         if direction == Directions.N and self.y > 0 and self.room.get_entity_at_coords(self.x, self.y - 1) is None:
@@ -214,7 +216,7 @@ class Game:
         print(Fg.red + "HAI PERSO!" + Fg.rs)
         input()
         exit()
-
+    #è la funzione che viene chiamato all'infinito in g.update 
     def update(self):
         if IS_WINDOWS:
             system("cls")
@@ -245,12 +247,12 @@ class Game:
             self.player.move(Directions.W)
         elif action == "D":
             self.player.move(Directions.E)
-        elif action == "QUIT":
+        elif action == "QUIT": 
             quit()
         else:
             item = None
+            action = action.replace(" ", "")
             if len(action) > 1:
-                action = action.replace(" ", "")
                 item = self.player.inventory.get(action[0])
                 action = action[1]
 
