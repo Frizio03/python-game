@@ -190,7 +190,6 @@ class Game:
         config[key] = json.load(file) #dato un file lo trasforma in un dictionary
         file.close()
     #si recuperano i dati nel file rooms che vengono appese alla lista di stanze
-    #il self passato a room sta ad indicare l'istanza del game
     def __init__(self):
         self.rooms = []
         for i in range(len(Game.config["rooms"])):
@@ -261,11 +260,12 @@ class Game:
                     entity.interact(item)
                     input("premi un tasto per continuare...")
                     break
-	#ricavare un elemento da un dict in modo programmatico significa ricavare un valore programmandoqualcosa
+	#ricavare un elemento da un dict in modo programmatico significa ricavare un valore programmando qualcosa
 
 
 class Room:
     def __init__(self, game, number, color, name, description):
+        #il self passato a room sta ad indicare l'istanza del game
         self.game = game
         self.number = number
         self.color = getattr(Bg, color) #recupera un valore in modo programmatico da una classe: getattr(where, what)
